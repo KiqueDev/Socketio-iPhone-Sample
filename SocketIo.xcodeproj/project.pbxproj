@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EC79362417EA03D90091A6AE /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC79362217EA03D90091A6AE /* MainStoryboard.storyboard */; };
 		EC880CE817E24A5E00E96A33 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC880CE717E24A5E00E96A33 /* UIKit.framework */; };
 		EC880CEA17E24A5E00E96A33 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC880CE917E24A5E00E96A33 /* Foundation.framework */; };
 		EC880CEC17E24A5E00E96A33 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC880CEB17E24A5E00E96A33 /* CoreGraphics.framework */; };
@@ -43,6 +44,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EC79362317EA03D90091A6AE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		EC880CE417E24A5E00E96A33 /* SocketIo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocketIo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC880CE717E24A5E00E96A33 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		EC880CE917E24A5E00E96A33 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -165,6 +167,7 @@
 				EC880CF717E24A5E00E96A33 /* AppDelegate.m */,
 				ECABBFAD17E8BDF4009DE512 /* ViewController.h */,
 				EC880D0317E24A5E00E96A33 /* ViewController.m */,
+				EC79362217EA03D90091A6AE /* MainStoryboard.storyboard */,
 				EC880CEE17E24A5E00E96A33 /* Supporting Files */,
 			);
 			path = SocketIo;
@@ -299,6 +302,7 @@
 				EC880CFA17E24A5E00E96A33 /* Default.png in Resources */,
 				EC880CFC17E24A5E00E96A33 /* Default@2x.png in Resources */,
 				EC880CFE17E24A5E00E96A33 /* Default-568h@2x.png in Resources */,
+				EC79362417EA03D90091A6AE /* MainStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,6 +340,14 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		EC79362217EA03D90091A6AE /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC79362317EA03D90091A6AE /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
 		EC880CF017E24A5E00E96A33 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
